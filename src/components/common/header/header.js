@@ -4,7 +4,7 @@ import "./header.css";
 const Header = () => {
     return (
     <div className="max-width header">
-        <img src="https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png" 
+        <img src="images/logo.png" 
             alt="zomato-logo"
             className="header-logo cur-po"
         />

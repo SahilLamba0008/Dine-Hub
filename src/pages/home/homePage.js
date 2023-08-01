@@ -5,6 +5,7 @@ import Footer from "../../components/common/footer/footer";
 import Delivery from "../../components/Delivery/Delivery";
 import DiningOut from "../../components/diningOut/diningOut";
 import NightLife from "../../components/NightLife/nightLife";
+import HeroSection from "../../components/common/HeroSection/HeroSection";
 
 const HomePage = () => {
 
@@ -12,6 +13,7 @@ const HomePage = () => {
 
     return(
         <div>
+            <HeroSection />
             <Header />
             <TabOptions activeTab={activeTab} setActiveTab={setActiveTab}/>
             {/* This decides which screen to render  */}
