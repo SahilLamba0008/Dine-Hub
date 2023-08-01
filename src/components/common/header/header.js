@@ -4,10 +4,12 @@ import "./header.css";
 const Header = () => {
     return (
     <div className="max-width header">
-        <img src="images/logo.png" 
-            alt="zomato-logo"
-            className="header-logo cur-po"
-        />
+        <div className="header-left">
+            <img src="images/logo.png" 
+                alt="zomato-logo"
+                className="header-logo cur-po"
+            />
+        </div>
         <div className="header-right">
             <div className="header-location-search-contianer">
                 <div className="location-wrapper">
@@ -20,7 +22,7 @@ const Header = () => {
                 <div className="location-search-separator"></div>
                 <div className="header-searchBar">
                     <i className="fi fi-rr-search absolute-center search-icon"></i>
-                    <input placeholder="Search for restaurant, cuisine or a dish" className="search-input"/>
+                    <input placeholder="Search for restaurant, cuisine or a dish..." className="search-input"/>
                 </div>
             </div>
             <div className="profile-wrapper">
